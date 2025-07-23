@@ -37,7 +37,10 @@ dependencies {
 
     // https://mvnrepository.com/artifact/com.cloudinary/cloudinary-core
     implementation("com.cloudinary:cloudinary-core:1.38.0")
+
+    implementation("com.cloudinary:cloudinary-http44:1.32.2")
 }
+
 
 tasks.named('test') {
     useJUnitPlatform()
